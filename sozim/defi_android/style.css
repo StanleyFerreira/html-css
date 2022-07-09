@@ -1,0 +1,141 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+body{
+    margin: 0%;
+    background-color: #84E1AD;
+    
+}
+
+header {
+    
+    background-image: linear-gradient(to top,#195735,#3BD37F);
+    padding: 30px;
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+header > p {
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+nav > a {
+    
+    color: white;
+    font-size: 13px;
+    margin: 7px;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-decoration: none;
+}
+nav:hover > a {
+    text-decoration: underline;
+    background-color: #124027;
+}
+
+main {
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    
+    border-radius: 0px 0px 10px 10px;
+}
+
+
+main > h1{
+    text-indent: 10px;
+    margin-top: 0%;
+    padding-top: 16px;
+    color: #195735;
+}
+
+main > h2 {
+    margin-left: 10px;
+    color: #195735;
+    background-image: linear-gradient(to right, #c2fbdc, white);
+}
+
+main > p {
+    padding: 0% 10px;
+    text-align: justify;
+    text-indent: 20px;
+}
+main > section {
+    text-align: center;
+    padding-top: 20px;
+    padding: 20px;
+}
+
+section > iframe {
+    width: auto;
+    height: auto;
+}
+
+.video{
+    background-color: #124027;
+}
+
+section > article {
+    background-color: #bcffd9;
+    border-radius: 10px;
+    margin: auto;
+    
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 20px;
+    margin: 20px;
+    font-weight: 600;
+}
+article > ul {
+    text-align: left;
+    font-weight: 600;
+
+}
+
+section > article > h2 {
+    background-color: #3BD37F;
+    text-align: left;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px;
+}
+
+footer {
+    background-color: #124027;
+    
+}
+footer > p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+
+.android{
+    font-family: 'idroid';
+}
+
+.destaque {
+    color: #195735;
+    font-weight: bold;
+}
+.destaque > a {
+    text-decoration: none;
+    color: #195735;
+}
+
+.destaque:hover > a {
+    text-decoration: underline;
+}
